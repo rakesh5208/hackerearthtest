@@ -1,0 +1,7 @@
+
+<div class="filter-box-container" *ngIf="isOpen" (appOutside)="outsideHandler($event)">
+  <ul>
+    <li *ngFor="let o of options" class="ui-clickable" (click)="selectOption(o)">
+      <input type="checkbox" [checked]="getCheckedStatus(o)"/>{{o}} </li>
+  </ul>
+</div>

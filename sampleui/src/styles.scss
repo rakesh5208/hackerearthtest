@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+
+*{
+    font-family: 'nunito', 'sans-serif';
+}
+.container{
+    position: relative;
+    margin-top: 90px;
+}
+
+.ui-clickable{
+    cursor: pointer;
+}
+
+
+.btn-border{
+    border: 1px solid #d3d3d3 !important;
+    margin: 5px 0px;
+}
+
+.sticky-header{
+    position: sticky !important;
+    top: 77px;
+    z-index: 1;
+}
